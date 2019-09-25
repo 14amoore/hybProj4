@@ -1,4 +1,12 @@
 @import url('https://use.typekit.net/zya3vng.css');
+body {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  color: black;
+  font-size: 60px;
+}
+
 #plain {
   width: 98vw;
   height: 30vh;
@@ -35,16 +43,11 @@
 .container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-auto-rows: 1fr;
-  margin: 100px 0px 0px 0px;
+  grid-template-rows: 33vh;
+  grid-gap: 10px;
+  align-content: space-around;
+  justify-content: space-between;
 }
-#tone {
-  width: 98vw;
-  height: 25vh;
+#t {
   background-color: grey;
-  font-family: futura-pt-condensed, sans-serif;
-  font-weight: 800;
-  font-style: italic;
-  color: black;
-  font-size: 60px;
 }

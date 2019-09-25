@@ -1,0 +1,26 @@
+@import url('https://use.typekit.net/zya3vng.css');
+
+body {
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  color: black;
+  font-size: 60px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 33vh;
+  grid-gap: 10px;
+  align-content: space-around;
+  justify-content: space-between;
+}
+
+#c {
+  background-color: grey;
+}
