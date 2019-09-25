@@ -1,0 +1,50 @@
+@import url('https://use.typekit.net/zya3vng.css');
+#plain {
+  width: 98vw;
+  height: 30vh;
+  background-color: black;
+  margin: 0px 0px 0px 0px;
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  color: white;
+  font-size: 80px;
+  visibility: visible;
+}
+
+#hov:hover #plain {
+  visibility: hidden;
+}
+
+#sight {
+  width: 98vw;
+  height: 25vh;
+  background-color: white;
+  margin: 0px 0px 0px 0px;
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  color: black;
+  font-size: 80px;
+  visibility: hidden;
+}
+
+#hov:hover + #sight {
+  visibility: visible;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 1fr;
+  margin: 100px 0px 0px 0px;
+}
+#tone {
+  width: 98vw;
+  height: 25vh;
+  background-color: grey;
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  color: black;
+  font-size: 60px;
+}
